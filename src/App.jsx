@@ -13,4 +13,6 @@ function App() {
   )
 }
 
+// 24 Agu 2024 : No activitys
+
 export default App
