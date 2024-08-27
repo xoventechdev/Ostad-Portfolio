@@ -15,5 +15,6 @@ function App() {
 
 // 24 Agu 2024 : No activitys
 // 26 Agu 2024 : No activitys
+// 27 Agu 2024 : No activitys
 
 export default App
