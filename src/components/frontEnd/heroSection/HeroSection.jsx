@@ -165,59 +165,24 @@ const HeroSection = () => {
                 App Developer
               </li>
             </ul>
-            <div className="action">
-              <a
-                className="btn"
-                data-darkreader-inline-bgcolor=""
-                data-darkreader-inline-border-bottom=""
-                data-darkreader-inline-border-left=""
-                data-darkreader-inline-border-right=""
-                data-darkreader-inline-border-top=""
-                data-darkreader-inline-color=""
-                href="https://github.com/zonayedpca/zonayed.me/raw/master/src/data/file/MyResume.pdf"
-                rel="noopener noreferrer"
-                style={{
-                  '--darkreader-inline-bgcolor': '#00a64a',
-                  '--darkreader-inline-border-bottom': '#00c157',
-                  '--darkreader-inline-border-left': '#00c157',
-                  '--darkreader-inline-border-right': '#00c157',
-                  '--darkreader-inline-border-top': '#00c157',
-                  '--darkreader-inline-color': 'rgba(232, 230, 227, 0.85)',
-                  backgroundColor: 'rgb(0, 207, 93)',
-                  borderColor: 'rgb(0, 207, 93)',
-                  color: 'rgba(255, 255, 255, 0.85)'
-                }}
-                target="__blank"
-              >
-                Get Resume
-              </a>
-              <a
-                className="btn"
-                data-darkreader-inline-bgcolor=""
-                data-darkreader-inline-border-bottom=""
-                data-darkreader-inline-border-left=""
-                data-darkreader-inline-border-right=""
-                data-darkreader-inline-border-top=""
-                data-darkreader-inline-color=""
-                href="#about"
-                rel=""
-                style={{
-                  '--darkreader-inline-bgcolor': 'transparent',
-                  '--darkreader-inline-border-bottom': '#00c157',
-                  '--darkreader-inline-border-left': '#00c157',
-                  '--darkreader-inline-border-right': '#00c157',
-                  '--darkreader-inline-border-top': '#00c157',
-                  '--darkreader-inline-color': 'rgba(232, 230, 227, 0.85)',
-                  backgroundColor: 'transparent',
-                  borderColor: 'rgb(0, 207, 93)',
-                  color: 'rgba(255, 255, 255, 0.85)',
-                  marginLeft: '15px'
-                }}
-                target=""
-              >
-                About Me
-              </a>
-            </div>
+
+            <div class="action">
+  <a
+    class="btn"
+    href="https://github.com/zonayedpca/zonayed.me/raw/master/src/data/file/MyResume.pdf"
+    target="__blank"
+    rel="noopener noreferrer"
+  >
+    Get Resume
+  </a>
+  <a
+    class="btn"
+    href="#about"
+  >
+    About Me
+  </a>
+</div>
+
           </div>
         </div>
       </div>
