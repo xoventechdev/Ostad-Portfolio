@@ -1,14 +1,13 @@
-import React from 'react';
-import me from '/me.webp'
-
+import React from "react";
+import me from "/me.webp";
 
 const HeroSection = () => {
-    return (
-      <div className="intro-area">
+  return (
+    <div className="intro-area">
       <div
         className="title left social"
         style={{
-          height: '320px'
+          height: "320px",
         }}
       >
         <ul>
@@ -26,8 +25,8 @@ const HeroSection = () => {
                 stroke="currentColor"
                 strokeWidth="0"
                 style={{
-                  '--darkreader-inline-fill': 'currentColor',
-                  '--darkreader-inline-stroke': 'currentColor'
+                  "--darkreader-inline-fill": "currentColor",
+                  "--darkreader-inline-stroke": "currentColor",
                 }}
                 viewBox="0 0 496 512"
                 width="1em"
@@ -51,8 +50,8 @@ const HeroSection = () => {
                 stroke="currentColor"
                 strokeWidth="0"
                 style={{
-                  '--darkreader-inline-fill': 'currentColor',
-                  '--darkreader-inline-stroke': 'currentColor'
+                  "--darkreader-inline-fill": "currentColor",
+                  "--darkreader-inline-stroke": "currentColor",
                 }}
                 viewBox="0 0 512 512"
                 width="1em"
@@ -76,8 +75,8 @@ const HeroSection = () => {
                 stroke="currentColor"
                 strokeWidth="0"
                 style={{
-                  '--darkreader-inline-fill': 'currentColor',
-                  '--darkreader-inline-stroke': 'currentColor'
+                  "--darkreader-inline-fill": "currentColor",
+                  "--darkreader-inline-stroke": "currentColor",
                 }}
                 viewBox="0 0 448 512"
                 width="1em"
@@ -101,8 +100,8 @@ const HeroSection = () => {
                 stroke="currentColor"
                 strokeWidth="0"
                 style={{
-                  '--darkreader-inline-fill': 'currentColor',
-                  '--darkreader-inline-stroke': 'currentColor'
+                  "--darkreader-inline-fill": "currentColor",
+                  "--darkreader-inline-stroke": "currentColor",
                 }}
                 viewBox="0 0 512 512"
                 width="1em"
@@ -126,8 +125,8 @@ const HeroSection = () => {
                 stroke="currentColor"
                 strokeWidth="0"
                 style={{
-                  '--darkreader-inline-fill': 'currentColor',
-                  '--darkreader-inline-stroke': 'currentColor'
+                  "--darkreader-inline-fill": "currentColor",
+                  "--darkreader-inline-stroke": "currentColor",
                 }}
                 viewBox="0 0 512 512"
                 width="1em"
@@ -138,56 +137,38 @@ const HeroSection = () => {
             </a>
           </li>
         </ul>
-        <p>
-          Follow Me
-        </p>
+        <p>Follow Me</p>
       </div>
       <div className="container">
         <div className="intro">
           <div className="intro-text">
-            <p>
-              Hello! I am
-            </p>
-            <h1>
-              Md Kamal Hosen
-            </h1>
-            <h3>
-              Full Stack Developer
-            </h3>
+            <p>Hello! I am</p>
+            <h1>Md Kamal Hosen</h1>
+            <h3>Full Stack Developer</h3>
             <ul>
-              <li>
-                Web Developer
-              </li>
-              <li>
-                Programmer
-              </li>
-              <li>
-                App Developer
-              </li>
+              <li>Web Developer</li>
+              <li>Programmer</li>
+              <li>App Developer</li>
             </ul>
 
             <div class="action">
-  <a
-    class="btn"
-    href="https://github.com/zonayedpca/zonayed.me/raw/master/src/data/file/MyResume.pdf"
-    target="__blank"
-    rel="noopener noreferrer"
-  >
-    Get Resume
-  </a>
-  <a
-    class="btn"
-    href="#about"
-  >
-    About Me
-  </a>
-</div>
-
+              <a
+                class="btn-full btn-full-bg"
+                href="https://github.com/zonayedpca/zonayed.me/raw/master/src/data/file/MyResume.pdf"
+                target="__blank"
+                rel="noopener noreferrer"
+              >
+                Get Resume
+              </a>
+              <a class="btn-full btn-full-border" href="#about">
+                About Me
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default HeroSection;
